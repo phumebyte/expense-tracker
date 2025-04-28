@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "National Park", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem;
+    background-color: #2E236C;
+    height: 5rem;
+}
+
+header .search i {
+    font-size: 1.3rem;
+    color: white;
+    padding: .2rem;
+}
+
+header input {
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 30px;
+    padding: 1rem;
+    border: none;
+    color: black;
+}
+
+header .header-right {
+    display: flex;
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+
+header .header-right i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.user-summary {
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    padding: 1rem;
+}
+
+.summary div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 50%;
+}
+
+.total-income {
+    background-color: #A4B465;
+}
+
+.total-expenses {
+    background-color: #CD113B;
+}
+
+.balance {
+    background-color: #FFA900;
+}
+
+.user-information {
+    background-color: #2E236C;
+}
+
+.add-transaction {
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem 1rem 2rem;
+}
+
+#transaction-title {
+    padding: .5rem;
+    width: 25rem;
+    border-radius: 30px;
+    color: black;
+}
+
+#transaction-amount {
+    padding: .5rem;
+    width: 10rem;
+    border-radius: 30px;
+    color: black;
+}
+
+.submit-btn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #C8ACD6;
+}
+
+.submit-btn i {
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.transaction-list {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.transaction-list h3 {
+    color: black;
+}
+
+.transaction-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #C8ACD6;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.delete-btn:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
