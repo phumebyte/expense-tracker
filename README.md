@@ -56,11 +56,14 @@ Tests are written using **Jest**.
 
 ```bash
 npm install --save-dev jest
+```
+To run tests: 
+```bash
 npm test
 ```
 #### The tests cover:
 
-- Initialization of transactionList
+- Initialisation of transactionList
 - Adding a transaction with validations
 - Calculating user balance
 - Deleting a transaction
